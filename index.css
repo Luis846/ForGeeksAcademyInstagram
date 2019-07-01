@@ -1,0 +1,27 @@
+body{
+    background: blue;
+}
+
+h1{
+    color: #fff;
+}
+
+h2{
+    color: pink;
+}
+
+p{
+    font-style: italic;
+}
+
+.box-one,
+.box-two{
+    background: red;
+}
+
+.box-two{
+    width: 50%;
+    border: 5px dashed #fff;
+    text-align: center;
+    margin: 0 auto;
+}

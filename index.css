@@ -1,27 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background: #fff;
+    padding: 10px;
+}
+
+header h1{
+    margin:0;
+}
 body{
-    background: blue;
+    margin: 0;
+    background: #000;
 }
 
-h1{
-    color: #fff;
+.posts {
+    background: #fff;
+}
+.content{
+    width: 45%;
+    margin: auto;
+    position: relative;
+    top: 60px;
 }
 
-h2{
-    color: pink;
+.posts img{
+    width: 100%;
 }
 
-p{
-    font-style: italic;
+.html{
+    padding-left: 7px;
+    margin-bottom: 0;
+    position: relative;
+    top: 7px;
 }
 
-.box-one,
-.box-two{
-    background: red;
+.rigo{
+    padding-left: 47px;
+    margin: 0;
+    position: relative;
+    padding-bottom: 20px;
+    bottom: 10px;
 }
 
-.box-two{
-    width: 50%;
-    border: 5px dashed #fff;
-    text-align: center;
-    margin: 0 auto;
+.Dots-title{
+    position: relative;
+    left: 20em;
+    bottom: 8px;
+}
+.posts-title{
+    display: inline-block;
+    width: 80%;
+}
+.posts-title p{
+    display: inline-block;
+
+}
+
+.title-icon-left{
+    padding-left: 12px;
+    position: relative;
+    top: 25px;
+}
+
+.bottom-icons{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.first-icon,
+.second-icon,
+.third-icon
+{
+    padding-right: 5px;
+}
+
+.fourth-icon{
+   float: right;
+   padding-right: 15px;
+}
+
+.last-p{
+padding-left: 10px;
+padding-bottom: 15px;
 }

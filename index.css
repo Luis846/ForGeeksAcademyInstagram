@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
 }
@@ -29,38 +30,34 @@ body{
 }
 
 .html{
-    padding-left: 7px;
-    margin-bottom: 0;
-    position: relative;
-    top: 7px;
+    display: flex;
+    flex-direction: column;
 }
 
+.htmlname{
+    margin-bottom: 0px;
+}
 .rigo{
-    padding-left: 47px;
-    margin: 0;
-    position: relative;
-    padding-bottom: 20px;
-    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
 }
 
 .Dots-title{
-    position: relative;
-    left: 20em;
-    bottom: 8px;
+ width: 100%;
+ text-align: right;
+ margin: 15px;
 }
 .posts-title{
-    display: inline-block;
-    width: 80%;
+    display: flex;
+    flex-direction: row;
 }
 .posts-title p{
     display: inline-block;
-
 }
 
 .title-icon-left{
-    padding-left: 12px;
-    position: relative;
-    top: 25px;
+    margin: 12px;
 }
 
 .bottom-icons{
